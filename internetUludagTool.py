@@ -36,6 +36,7 @@ elif in_or_out == 0:
     cmd = f'curl -X POST -F "logout_user={name}" -F "logout_pwd={pwd}" https://internet.uludag.edu.tr/loginLogout.php'
 
     os.system(cmd)
+    print("")
 
 
 
